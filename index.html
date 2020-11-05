@@ -4,21 +4,18 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="schortcut icon" href="favicon.ico">
 </head>
 <body>
 
 <h2>Что может JS?</h2>
+<p>Выключать свет!</p>
 
-<p>JavaScript может изменять HTML-атрибуты.</p>
+<button onclick="turnOn()">Включить свет!</button>
 
-<p>И даже заменять картинки!</p>
+<img id="myImage" src="images/pic_bulboff.gif" style="width: 100px">
 
-<button onclick="turnLightOn()">Включить свет</button>
-
-<img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
-
-<button onclick="turnLightOff()">Выключить свет</button>
+<button onclick="turnOff()">Выключить свет!</button>
 
 <script src="script.js"></script>
 </body>
